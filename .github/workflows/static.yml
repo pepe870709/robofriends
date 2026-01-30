@@ -40,7 +40,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # IMPORTANT: Use 'dist' for Vite or 'build' for Create-React-App
-          path: './dist' 
+          path: './build' 
 
       - name: Deploy to GitHub Pages
         id: deployment
